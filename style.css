@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html, body {
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+a {
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-logo, .header-menu {
+    text-align: center;
+    padding: 20px;
+}
+.header-logo .logo-text {
+    color: #808080;
+    margin: 25px;
+}
+
+.header-menu .nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 15px;
+}
+.header-menu .nav .active {
+    color: #808080;
+}
+.header-menu .text {
+    margin: 35px;   
+}
+.header-menu .text p a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.header-menu ul li, .header-menu ol li {
+    list-style-position: inside;
+}
+.header-menu ul strong{
+    margin-bottom: 25px;
+    display:block;
+}
+.header-menu ol li {
+    margin: 25px;
+    text-align: center
+}
+
